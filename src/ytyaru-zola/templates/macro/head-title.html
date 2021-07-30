@@ -1,0 +1,7 @@
+{% macro title(title) %}
+<title>{{ title }}</title>
+{% endmacro input %}
+
+<title>{% block title %}{% endblock %}</title>
+<meta name="description" content="{% block description %}{% endblock %}">
+

@@ -5,6 +5,7 @@ compile_sass = true
 build_search_index = true
 generate_feed = true
 feed_filename = "atom.xml"
+paginate_by = 30
 #minify_html = false
 #ignored_content = []
 
@@ -12,6 +13,7 @@ default_language = "ja"
 title = "ytyaru-zola"
 description = "静的サイトジェネレータ<code>zola</code>について書きなぐる。自作テンプレートも配布する。"
 #theme = ""
+insert_anchor_links = "left"
 
 [markdown]
 highlight_code = true
